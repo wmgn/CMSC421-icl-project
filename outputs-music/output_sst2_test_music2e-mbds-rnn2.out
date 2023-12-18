@@ -1,0 +1,10 @@
+Successfully loaded config from configs/dataset_config_few_shot.json!
+Successfully loaded config from configs/net_config_basic.json!
+First prompt: <s>[INST] <<SYS>>You are a precise, succinct AI model. You select and return the demo examples that are most related and relevant to music.<</SYS>>
+Here are the demo examples: 
+##########
+Select and return the above demo examples that are most related and relevant to music. Match the same formatting the examples were given in, using Review:  and Positive or negative: .
+[/INST]
+Result: positive
+
+Used time: 55.18459987640381

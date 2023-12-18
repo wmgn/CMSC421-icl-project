@@ -1,0 +1,49 @@
+Successfully loaded config from configs/dataset_config_few_shot.json!
+Successfully loaded config from configs/net_config_basic.json!
+First prompt: <s>[INST] <<SYS>>You are a precise AI model. You select and return the demo examples that are most related and relevant to the task of movie sentiment analysis, with no extra explanation, matching the same format they were given in.<</SYS>>
+Here are the demo examples: 
+##Review: a great movie 
+##Positive or negative: positive
+##Review: entertaining , if somewhat standardized , action 
+##Positive or negative: positive
+##Review: even when there are lulls , the emotions seem authentic , 
+##Positive or negative: positive
+##Review: a larger-than-life figure 
+##Positive or negative: positive
+##Review: nothing special and , until the final act , nothing 
+##Positive or negative: negative
+##Review: a journey back to your childhood 
+##Positive or negative: positive
+##Review: a film that manages to find greatness in the hue of its drastic iconography 
+##Positive or negative: positive
+##Review: much funnier film 
+##Positive or negative: positive
+##Review: relies on more than special effects 
+##Positive or negative: positive
+##Review: the music makes a nice album , 
+##Positive or negative: positive
+
+[/INST]
+Result:  Sure, here are the demo examples that are most related and relevant to the task of movie sentiment analysis, matching the same format as given:
+
+1. Review: a great movie
+Positive or negative: positive
+2. Review: entertaining, if somewhat standardized, action
+Positive or negative: positive
+3. Review: even when there are lulls, the emotions seem authentic
+Positive or negative: positive
+4. Review: a larger-than-life figure
+Positive or negative: positive
+5. Review: nothing special and, until the final act, nothing much happens
+Positive or negative: negative
+6. Review: a journey back to your childhood
+Positive or negative: positive
+7. Review: a film that manages to find greatness in the hue of its drastic iconography
+Positive or negative: positive
+8. Review: much funnier film
+Positive or negative: positive
+9. Review: relies on more than special effects
+Positive or negative: positive
+10. Review: the music makes a nice album
+Positive or negative: positive
+

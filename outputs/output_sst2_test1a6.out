@@ -1,0 +1,12 @@
+Successfully loaded config from configs/dataset_config_few_shot.json!
+Successfully loaded config from configs/net_config_basic.json!
+First prompt: <s>[INST] <<SYS>>You are a precise AI model. You select, summarize, and return the demo examples that are most related and relevant to the task.<</SYS>>
+Your task right now is: Summarize the demo examples you think are most related and relevant to the task.Here are the demo examples: 
+##Review: a great movie 
+##Positive or negative: positive
+##Review: entertaining , if somewhat standardized , action 
+##Positive or negative: positive
+##Review: even when there are lulls , the emotions seem authentic , 
+##Positive or negative: positive
+
+Here is a list of the most related and relevant demo examples:[/INST]

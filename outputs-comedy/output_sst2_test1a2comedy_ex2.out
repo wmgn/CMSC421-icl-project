@@ -1,0 +1,9 @@
+Successfully loaded config from configs/dataset_config_few_shot.json!
+Successfully loaded config from configs/net_config_basic.json!
+First prompt: <s>[INST] <<SYS>>You are a precise AI model. Matching the same format the examples were given, select and return only the best demo examples that are most related and relevant to the task of comedy movie sentiment analysis.<</SYS>>
+Here are the demo examples: 
+##########
+[/INST]
+Result: positive
+
+Used time: 787.8902595043182

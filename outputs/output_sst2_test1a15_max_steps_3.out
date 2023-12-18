@@ -1,0 +1,121 @@
+Successfully loaded config from configs/dataset_config_few_shot.json!
+Successfully loaded config from configs/net_config_basic.json!
+First prompt: <s>[INST] <<SYS>>You are a precise AI model. Select and return the demo examples that are most related and relevant to the task of movie sentiment analysis, with no extra explanation, matching the same format they were given in.<</SYS>>
+Here are the demo examples: 
+##Review: a great movie 
+##Positive or negative: positive
+##Review: entertaining , if somewhat standardized , action 
+##Positive or negative: positive
+##Review: even when there are lulls , the emotions seem authentic , 
+##Positive or negative: positive
+##Review: a larger-than-life figure 
+##Positive or negative: positive
+##Review: nothing special and , until the final act , nothing 
+##Positive or negative: negative
+##Review: a journey back to your childhood 
+##Positive or negative: positive
+##Review: a film that manages to find greatness in the hue of its drastic iconography 
+##Positive or negative: positive
+##Review: much funnier film 
+##Positive or negative: positive
+##Review: relies on more than special effects 
+##Positive or negative: positive
+##Review: the music makes a nice album , 
+##Positive or negative: positive
+
+[/INST]
+Result:  Sure, here are the demo examples that are most related and relevant to the task of movie sentiment analysis:
+
+1. **Review: a great movie** - Positive
+2. **Review: entertaining** - Positive
+3. **Review: even when there are lulls , the emotions seem authentic** - Positive
+4. **Review: a larger-than-life figure** - Positive
+5. **Review: a journey back to your childhood** - Positive
+6. **Review: a film that manages to find greatness in the hue of its drastic iconography** - Positive
+7. **Review: much funnier film** - Positive
+8. **Review: relies on more than special effects** - Positive
+9. **Review: the music makes a nice album** - Positive
+
+First prompt: <s>[INST] <<SYS>>You are a precise AI model. Select and return the demo examples that are most related and relevant to the task of movie sentiment analysis, with no extra explanation, matching the same format they were given in.<</SYS>>
+Here are the demo examples: 
+##Review: protect your community 
+##Positive or negative: positive
+##Review: comic relief 
+##Positive or negative: positive
+##Review: this amiable picture talks tough , but it 's all bluster -- in the end it 's as sweet as greenfingers ... 
+##Positive or negative: positive
+##Review: hooked on the delicious pulpiness of its lurid fiction . 
+##Positive or negative: positive
+##Review: stereotypical familial quandaries 
+##Positive or negative: negative
+##Review: a sensitive , cultivated treatment of greene 's work as well as a remarkably faithful one . 
+##Positive or negative: positive
+##Review: for the most part , the film is deadly dull 
+##Positive or negative: negative
+##Review: in the most blithe exchanges gives the film its lingering tug 
+##Positive or negative: positive
+##Review: educates 
+##Positive or negative: positive
+##Review: frankly , it 's pretty stupid . 
+##Positive or negative: negative
+
+[/INST]
+Result:  Sure, here are the demo examples related to the task of movie sentiment analysis:
+
+1. **Review: protect your community** - Positive
+2. **Review: comic relief** - Positive
+3. **Review: this amiable picture talks tough, but it's all bluster...** - Positive
+4. **Review: hooked on the delicious pulpiness of its lurid fiction** - Positive
+5. **Review: stereotypical familial quandaries** - Negative
+6. **Review: a sensitive, cultivated treatment of Greene's work as well as a remarkably faithful one** - Positive
+7. **Review: for the most part, the film is deadly dull** - Negative
+8. **Review: in the most blithe exchanges gives the film its lingering tug** - Positive
+9. **Review: educates** - Positive
+10. **Review: frankly, it's pretty stupid** - Negative
+
+First prompt: <s>[INST] <<SYS>>You are a precise AI model. Select and return the demo examples that are most related and relevant to the task of movie sentiment analysis, with no extra explanation, matching the same format they were given in.<</SYS>>
+Here are the demo examples: 
+##Review: that tian 's meticulous talent has not withered during his enforced hiatus 
+##Positive or negative: positive
+##Review: it 's the little nuances that perhaps had to escape from director mark romanek 's self-conscious scrutiny to happen , that finally get under your skin 
+##Positive or negative: negative
+##Review: good human 
+##Positive or negative: positive
+##Review: the premise of `` abandon '' holds promise , ... 
+##Positive or negative: positive
+##Review: remains uniquely itself 
+##Positive or negative: positive
+##Review: the right to be favorably compared to das boot 
+##Positive or negative: positive
+##Review: going at a rapid pace , occasionally using an omniscient voice-over narrator in the manner of french new wave films 
+##Positive or negative: positive
+##Review: brazenly misguided project 
+##Positive or negative: negative
+##Review: it could be , by its art and heart , a necessary one . 
+##Positive or negative: positive
+##Review: more attuned to the anarchist maxim that ` the urge to destroy is also a creative urge ' , or more willing to see with their own eyes , will find morrison 's iconoclastic uses of technology to be liberating . 
+##Positive or negative: positive
+
+[/INST]
+Result:  Sure, here are the demo examples that are most related and relevant to the task of movie sentiment analysis:
+
+* **Review: that tian 's meticulous talent has not withered during his enforced hiatus** - Positive
+* **Review: it 's the little nuances that perhaps had to escape from director mark romanek 's self-conscious scrutiny to happen , that finally get under your skin** - Negative
+* **Review: good human** - Positive
+* **Review: the premise of `` abandon '' holds promise** - Positive
+* **Review: remains uniquely itself** - Positive
+* **Review: the right to be favorably compared to das boot** - Positive
+* **Review: going at a rapid pace** - Positive
+* **Review: brazenly misguided project** - Negative
+* **Review: it could be , by its art and heart** - Positive
+* **Review: more attuned to the anarchist maxim that ` the urge to destroy is also a creative urge '** - Positive
+
+
+!!!!!test print of results!!!!!
+
+
+: [' Sure, here are the demo examples that are most related and relevant to the task of movie sentiment analysis:\n\n1. **Review: a great movie** - Positive\n2. **Review: entertaining** - Positive\n3. **Review: even when there are lulls , the emotions seem authentic** - Positive\n4. **Review: a larger-than-life figure** - Positive\n5. **Review: a journey back to your childhood** - Positive\n6. **Review: a film that manages to find greatness in the hue of its drastic iconography** - Positive\n7. **Review: much funnier film** - Positive\n8. **Review: relies on more than special effects** - Positive\n9. **Review: the music makes a nice album** - Positive']
+
+
+
+Used time: 774.1444425582886

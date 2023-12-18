@@ -29,6 +29,7 @@ def main(dataset_config_path, net_config_path, dataset_name, verbose, seed, labe
     dataset_config_dev = DatasetConfig()
     train_dataset = MiniBatchEntangledDataset(train_source, [prompt_dict[dataset_name]["single_example_prompt"], prompt_dict[dataset_name]["single_get_answer_prompt"]], dataset_config_train)
     dev_dataset = Dataset(dev_source, prompt_dict[dataset_name]["question_prompt"], dataset_config_dev)
+    
     net_config = NetConfig(net_config_path)
     net = Net(net_config)
     first_prompt = prompt_dict[dataset_name]["multi_example_prompt"]

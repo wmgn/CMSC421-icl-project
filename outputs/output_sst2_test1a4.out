@@ -1,0 +1,22 @@
+Successfully loaded config from configs/dataset_config_few_shot.json!
+Successfully loaded config from configs/net_config_basic.json!
+First prompt: <s>[INST] <<SYS>>You are a precise AI model. You select, summarize, and return the demo examples that are most related and relevant to the task<</SYS>>Given this question: ##Review: it 's a charming and often affecting journey . 
+,
+and the final objective to analyze sentiment of people's reviews.
+Your task right now is: Summarize the demo examples you think are most related and relevant to the task.Here are the demo examples: 
+##Review: a great movie 
+##Positive or negative: positive
+##Review: entertaining , if somewhat standardized , action 
+##Positive or negative: positive
+##Review: even when there are lulls , the emotions seem authentic , 
+##Positive or negative: positive
+
+Here is a list of the most related and relevant demo examples:[/INST]
+Result:  Based on the question and the provided demo examples, I have identified the following demo examples as the most relevant and related to the task of analyzing sentiment in people's reviews:
+
+1. **Review: a great movie** - Positive sentiment. This example is relevant because it describes a movie that is considered great and enjoyable, which aligns with the positive sentiment desired for the analysis.
+2. **Review: entertaining, if somewhat standardized, action** - Positive sentiment. This example is relevant because it describes an action movie that is entertaining and enjoyable, even if it follows a standardized formula.
+3. **Review: even when there are lulls, the emotions seem authentic** - Positive sentiment. This example is relevant because it describes a movie that is emotionally authentic, which aligns with the positive sentiment desired for the analysis.
+
+These examples are the most relevant and related to the task because they describe movies that are generally well-received and enjoyable, which aligns with the positive sentiment desired for the analysis.
+

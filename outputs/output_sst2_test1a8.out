@@ -1,0 +1,23 @@
+Successfully loaded config from configs/dataset_config_few_shot.json!
+Successfully loaded config from configs/net_config_basic.json!
+First prompt: <s>[INST] <<SYS>>You are a precise AI model. You select, summarize, and return the most related and relevant demo examples to the task of sentiment analysis.<</SYS>>
+Here are the demo examples: 
+##Review: a great movie 
+##Positive or negative: positive
+##Review: entertaining , if somewhat standardized , action 
+##Positive or negative: positive
+##Review: even when there are lulls , the emotions seem authentic , 
+##Positive or negative: positive
+
+With no extra explanation, select and list the most related and relevant demo examples matching the same format they were given in.[/INST]
+Result:  Sure, I can help you with that! Based on the demo examples provided, the most related and relevant examples for sentiment analysis are:
+
+1. **Review: a great movie**
+Positive sentiment: Yes
+2. **Review: entertaining , if somewhat standardized , action**
+Positive sentiment: Yes
+3. **Review: even when there are lulls , the emotions seem authentic**
+Positive sentiment: Yes
+
+These examples all have a positive sentiment, indicating that the reviewers enjoyed the movie, action, or emotional authenticity.
+

@@ -46,7 +46,7 @@ class NetConfig(Config):
             "min_new_tokens": 1, 
             "temperature": 1.0
         }
-        self.model_name = "meta-llama/Llama-2-13b-hf"
+        self.model_name = "meta-llama/Llama-2-7b-chat-hf"
         self.cache_dir = "cache"
         self.token_file = None
         self.chat = True

@@ -1,0 +1,506 @@
+Successfully loaded config from configs/dataset_config_few_shot.json!
+Successfully loaded config from configs/net_config_basic.json!
+First prompt: <s>[INST] <<SYS>>You are a precise, succinct AI model. You select and return the demo examples that are most related and relevant to music.<</SYS>>
+Here are the demo examples: 
+##Review: a bad sign when they 're supposed to be having a collective heart attack 
+##Positive or negative: negative
+##Review: seem less of a trifle if ms. sugarman followed through on her defiance of the saccharine 
+##Positive or negative: negative
+##Review: there is a certain sense of experimentation and improvisation to this film that may not always work , but it is nevertheless compelling . 
+##Positive or negative: positive
+##Review: even if invincible is not quite the career peak that the pianist is for roman polanski , it demonstrates that werner herzog can still leave us with a sense of wonder at the diverse , marvelously twisted shapes history has taken . 
+##Positive or negative: positive
+##Review: concentrates far too much on the awkward interplay and utter lack of chemistry between chan and hewitt . 
+##Positive or negative: negative
+##Review: how inseparable the two are 
+##Positive or negative: positive
+##Review: this movie is 90 minutes long , and 
+##Positive or negative: negative
+##Review: to `` interesting '' 
+##Positive or negative: positive
+##Review: , three-dimensional characters 
+##Positive or negative: positive
+##Review: popcorn adventure 
+##Positive or negative: positive
+
+Select and return only the above demo examples that are most related and relevant to music. Match the same formatting the examples were given in, using Review:  and Positive or negative: .
+[/INST]
+memo: 
+##Review: there is a certain sense of experimentation and improvisation to this film that may not always work , but it is nevertheless compelling . 
+Positive
+
+##Review: concentrates far too much on the awkward interplay and utter lack of chemistry between chan and hewitt . 
+Negative
+
+##Review: how inseparable the two are 
+Positive
+
+##Review: this movie is 90 minutes long , and 
+Negative
+
+##Review: to `` interesting '' 
+Positive
+
+##Review: , three-dimensional characters 
+Positive
+
+##Review: popcorn adventure 
+Positive
+
+First prompt: <s>[INST] <<SYS>>You are a precise, succinct AI model. You select and return the demo examples that are most related and relevant to music.<</SYS>>
+Here are the demo examples: 
+##Review: to send your regrets 
+##Positive or negative: negative
+##Review: enough moments to keep it entertaining 
+##Positive or negative: positive
+##Review: a satisfying destination 
+##Positive or negative: positive
+##Review: soulless and -- even more damning -- 
+##Positive or negative: negative
+##Review: have been worth cheering as a breakthrough but 
+##Positive or negative: positive
+##Review: is long on narrative and ( too ) short on action 
+##Positive or negative: negative
+##Review: enough originality in ` life ' to distance it from the pack of paint-by-number romantic comedies that so often end up on cinema screens 
+##Positive or negative: positive
+##Review: with a hugely enjoyable film about changing times , clashing cultures and the pleasures of a well-made pizza 
+##Positive or negative: positive
+##Review: animal 
+##Positive or negative: positive
+##Review: loads of cgi and bushels of violence 
+##Positive or negative: negative
+
+
+##Review: there is a certain sense of experimentation and improvisation to this film that may not always work , but it is nevertheless compelling . 
+Positive
+
+##Review: concentrates far too much on the awkward interplay and utter lack of chemistry between chan and hewitt . 
+Negative
+
+##Review: how inseparable the two are 
+Positive
+
+##Review: this movie is 90 minutes long , and 
+Negative
+
+##Review: to `` interesting '' 
+Positive
+
+##Review: , three-dimensional characters 
+Positive
+
+##Review: popcorn adventure 
+Positive
+Select and return only the above demo examples that are most related and relevant to music. Match the same formatting the examples were given in, using Review:  and Positive or negative: .
+[/INST]
+memo: 
+##Review: with a hugely enjoyable film about changing times, clashing cultures and the pleasures of a well-made pizza 
+Positive
+
+##Review: concentrates far too much on the awkward interplay and utter lack of chemistry between Chan and Hewitt . 
+Negative
+
+##Review: how inseparable the two are 
+Positive
+
+##Review: this movie is 90 minutes long , and 
+Negative
+
+##Review: loads of cgi and bushels of violence 
+Negative
+
+##Review: there is a certain sense of experimentation and improvisation to this film that may not always work, but it is nevertheless compelling . 
+Positive
+
+First prompt: <s>[INST] <<SYS>>You are a precise, succinct AI model. You select and return the demo examples that are most related and relevant to music.<</SYS>>
+Here are the demo examples: 
+##Review: because it was particularly funny 
+##Positive or negative: positive
+##Review: piece to watch with kids and use to introduce video as art 
+##Positive or negative: positive
+##Review: hate 
+##Positive or negative: negative
+##Review: closer to the failure of the third revenge of the nerds sequel 
+##Positive or negative: negative
+##Review: if you 're not deeply touched by this movie 
+##Positive or negative: positive
+##Review: once again he has n't lost his touch , bringing off a superb performance in an admittedly middling film 
+##Positive or negative: positive
+##Review: of nothing at the core of this slight coming-of-age/coming-out tale 
+##Positive or negative: negative
+##Review: have been the ultimate imax trip 
+##Positive or negative: positive
+##Review: dumped a whole lot of plot in favor of ... outrageous gags 
+##Positive or negative: negative
+##Review: talk down to them 
+##Positive or negative: negative
+
+
+##Review: with a hugely enjoyable film about changing times, clashing cultures and the pleasures of a well-made pizza 
+Positive
+
+##Review: concentrates far too much on the awkward interplay and utter lack of chemistry between Chan and Hewitt . 
+Negative
+
+##Review: how inseparable the two are 
+Positive
+
+##Review: this movie is 90 minutes long , and 
+Negative
+
+##Review: loads of cgi and bushels of violence 
+Negative
+
+##Review: there is a certain sense of experimentation and improvisation to this film that may not always work, but it is nevertheless compelling . 
+Positive
+Select and return only the above demo examples that are most related and relevant to music. Match the same formatting the examples were given in, using Review:  and Positive or negative: .
+[/INST]
+memo: 
+Review: once again he has n't lost his touch , bringing off a superb performance in an admittedly middling film 
+Positive
+
+Review: concentrates far too much on the awkward interplay and utter lack of chemistry between Chan and Hewitt . 
+Negative
+
+Review: how inseparable the two are 
+Positive
+
+Review: this movie is 90 minutes long , and 
+Negative
+
+Review: loads of cgi and bushels of violence 
+Negative
+
+Review: there is a certain sense of experimentation and improvisation to this film that may not always work, but it is nevertheless compelling . 
+Positive
+
+First prompt: <s>[INST] <<SYS>>You are a precise, succinct AI model. You select and return the demo examples that are most related and relevant to music.<</SYS>>
+Here are the demo examples: 
+##Review: happy 
+##Positive or negative: positive
+##Review: an odd but ultimately satisfying blend 
+##Positive or negative: positive
+##Review: their intelligence 
+##Positive or negative: positive
+##Review: deliciously mean-spirited and wryly observant . 
+##Positive or negative: positive
+##Review: that it is n't very good 
+##Positive or negative: negative
+##Review: solid sci-fi thriller 
+##Positive or negative: positive
+##Review: has failed him 
+##Positive or negative: negative
+##Review: cute factor 
+##Positive or negative: positive
+##Review: they works spectacularly well ... a shiver-inducing , nerve-rattling ride . 
+##Positive or negative: positive
+##Review: a work of art 
+##Positive or negative: positive
+
+
+Review: once again he has n't lost his touch , bringing off a superb performance in an admittedly middling film 
+Positive
+
+Review: concentrates far too much on the awkward interplay and utter lack of chemistry between Chan and Hewitt . 
+Negative
+
+Review: how inseparable the two are 
+Positive
+
+Review: this movie is 90 minutes long , and 
+Negative
+
+Review: loads of cgi and bushels of violence 
+Negative
+
+Review: there is a certain sense of experimentation and improvisation to this film that may not always work, but it is nevertheless compelling . 
+Positive
+Select and return only the above demo examples that are most related and relevant to music. Match the same formatting the examples were given in, using Review:  and Positive or negative: .
+[/INST]
+memo: 
+Review: deliciously mean-spirited and wryly observant . 
+Positive
+
+Review: has failed him 
+Negative
+
+Review: cute factor 
+Positive
+
+Review: they works spectacularly well ... a shiver-inducing , nerve-rattling ride . 
+Positive
+
+Review: a work of art 
+Positive
+
+First prompt: <s>[INST] <<SYS>>You are a precise, succinct AI model. You select and return the demo examples that are most related and relevant to music.<</SYS>>
+Here are the demo examples: 
+##Review: classified as one of those ` alternate reality ' 
+##Positive or negative: positive
+##Review: ... a funny yet dark and seedy clash of cultures and generations . 
+##Positive or negative: positive
+##Review: heavy-handed , manipulative 
+##Positive or negative: negative
+##Review: congratulate himself for having the guts to confront it 
+##Positive or negative: positive
+##Review: sly , intricate magic 
+##Positive or negative: positive
+##Review: surrounded by open windows 
+##Positive or negative: positive
+##Review: original character , siuation or joke 
+##Positive or negative: positive
+##Review: predictable and cloying , 
+##Positive or negative: negative
+##Review: witty and sophisticated 
+##Positive or negative: positive
+##Review: `` looking for leonard '' just seems to kinda sit in neutral , hoping for a stiff wind to blow it uphill or something . 
+##Positive or negative: negative
+
+
+Review: deliciously mean-spirited and wryly observant . 
+Positive
+
+Review: has failed him 
+Negative
+
+Review: cute factor 
+Positive
+
+Review: they works spectacularly well ... a shiver-inducing , nerve-rattling ride . 
+Positive
+
+Review: a work of art 
+Positive
+Select and return only the above demo examples that are most related and relevant to music. Match the same formatting the examples were given in, using Review:  and Positive or negative: .
+[/INST]
+memo: 
+Review: deliciously mean-spirited and wryly observant . 
+Positive
+
+Review: cute factor 
+Positive
+
+Review: they works spectacularly well ... a shiver-inducing , nerve-rattling ride . 
+Positive
+
+These reviews are related to music because they mention elements such as "deliciously mean-spirited and wryly observant," "cute factor," and "works spectacularly well."
+
+First prompt: <s>[INST] <<SYS>>You are a precise, succinct AI model. You select and return the demo examples that are most related and relevant to music.<</SYS>>
+Here are the demo examples: 
+##Review: the unbearable lightness of being 
+##Positive or negative: positive
+##Review: be part of 
+##Positive or negative: positive
+##Review: an undistinguished attempt to make a classic theater piece cinematic . 
+##Positive or negative: negative
+##Review: this beautifully drawn movie 
+##Positive or negative: positive
+##Review: its demented premise 
+##Positive or negative: negative
+##Review: one feels cheated 
+##Positive or negative: negative
+##Review: it succeeds as a powerful look at a failure of our justice system . 
+##Positive or negative: positive
+##Review: to be seen as hip , winking social commentary 
+##Positive or negative: positive
+##Review: the word -- mindless , lifeless , meandering , loud , painful , obnoxious 
+##Positive or negative: negative
+##Review: the story is bogus and its characters tissue-thin . 
+##Positive or negative: negative
+
+
+Review: deliciously mean-spirited and wryly observant . 
+Positive
+
+Review: cute factor 
+Positive
+
+Review: they works spectacularly well ... a shiver-inducing , nerve-rattling ride . 
+Positive
+
+These reviews are related to music because they mention elements such as "deliciously mean-spirited and wryly observant," "cute factor," and "works spectacularly well."
+Select and return only the above demo examples that are most related and relevant to music. Match the same formatting the examples were given in, using Review:  and Positive or negative: .
+[/INST]
+memo: 
+Review: deliciously mean-spirited and wryly observant . 
+Positive
+
+Review: cute factor 
+Positive
+
+Review: they work spectacularly well ... a shiver-inducing , nerve-rattling ride . 
+Positive
+
+First prompt: <s>[INST] <<SYS>>You are a precise, succinct AI model. You select and return the demo examples that are most related and relevant to music.<</SYS>>
+Here are the demo examples: 
+##Review: a stirring visual sequence 
+##Positive or negative: positive
+##Review: entertain all ages 
+##Positive or negative: positive
+##Review: fair amount 
+##Positive or negative: positive
+##Review: a romantic comedy plotline straight from the ages 
+##Positive or negative: positive
+##Review: to hold onto what 's left of his passe ' chopsocky glory 
+##Positive or negative: negative
+##Review: 'll swear that you 've seen it all before , even if you 've never come within a mile of the longest yard . 
+##Positive or negative: negative
+##Review: , colorful , semimusical 
+##Positive or negative: positive
+##Review: ford and neeson capably hold our interest , but its just not a thrilling movie 
+##Positive or negative: negative
+##Review: deals with its subject matter in a tasteful , intelligent manner , rather than forcing us to endure every plot contrivance that the cliché-riddled genre can offer 
+##Positive or negative: positive
+##Review: evacuations , and none-too-funny commentary on the cultural distinctions between americans and brits 
+##Positive or negative: negative
+
+
+Review: deliciously mean-spirited and wryly observant . 
+Positive
+
+Review: cute factor 
+Positive
+
+Review: they work spectacularly well ... a shiver-inducing , nerve-rattling ride . 
+Positive
+Select and return only the above demo examples that are most related and relevant to music. Match the same formatting the examples were given in, using Review:  and Positive or negative: .
+[/INST]
+memo: 
+**Review:**
+
+* deliciously mean-spirited and wryly observant (Positive)
+* cute factor (Positive)
+* shiver-inducing, nerve-rattling ride (Positive)
+
+These examples are related to music because they all describe elements of a movie or TV show that are relevant to the musical experience. For example, "deliciously mean-spirited and wryly observant" describes a movie that is enjoyable and entertaining, which are both qualities that people might look for in a musical experience. Similarly, "cute factor" and "shiver-inducing, nerve-rattling ride" describe elements of a movie that are likely to evoke an emotional response from the audience, which is a key aspect of the musical experience.
+
+First prompt: <s>[INST] <<SYS>>You are a precise, succinct AI model. You select and return the demo examples that are most related and relevant to music.<</SYS>>
+Here are the demo examples: 
+##Review: a little more special 
+##Positive or negative: positive
+##Review: which gives you an idea just how bad it was 
+##Positive or negative: negative
+##Review: , ponderous and charmless 
+##Positive or negative: negative
+##Review: a raison d'etre that 's as fresh-faced as its young-guns cast 
+##Positive or negative: positive
+##Review: the queasy-stomached critic who staggered from the theater and blacked out in the lobby 
+##Positive or negative: negative
+##Review: succeeds due to its rapid-fire delivery and enough inspired levity that it ca n't be dismissed as mindless . 
+##Positive or negative: positive
+##Review: that i think is supposed to be an attempt at hardass american but sometimes just lapses into unhidden british 
+##Positive or negative: negative
+##Review: unconditional love and compassion garnered from years of seeing it all , a condition only the old are privy to , and ... often misconstrued as weakness 
+##Positive or negative: positive
+##Review: natural sportsmen 
+##Positive or negative: positive
+##Review: this is n't exactly profound cinema , but it 's good-natured and sometimes quite funny . 
+##Positive or negative: positive
+
+
+**Review:**
+
+* deliciously mean-spirited and wryly observant (Positive)
+* cute factor (Positive)
+* shiver-inducing, nerve-rattling ride (Positive)
+
+These examples are related to music because they all describe elements of a movie or TV show that are relevant to the musical experience. For example, "deliciously mean-spirited and wryly observant" describes a movie that is enjoyable and entertaining, which are both qualities that people might look for in a musical experience. Similarly, "cute factor" and "shiver-inducing, nerve-rattling ride" describe elements of a movie that are likely to evoke an emotional response from the audience, which is a key aspect of the musical experience.
+Select and return only the above demo examples that are most related and relevant to music. Match the same formatting the examples were given in, using Review:  and Positive or negative: .
+[/INST]
+memo: 
+**Review:**
+
+* deliciously mean-spirited and wryly observant (Positive)
+
+This example describes a movie that is enjoyable and entertaining, which are both qualities that people might look for in a musical experience. The use of the words "deliciously" and "mean-spirited" suggest that the movie is not afraid to be edgy or subversive, which could be appealing to fans of certain musical genres.
+
+First prompt: <s>[INST] <<SYS>>You are a precise, succinct AI model. You select and return the demo examples that are most related and relevant to music.<</SYS>>
+Here are the demo examples: 
+##Review: intriguing and alluring 
+##Positive or negative: positive
+##Review: it 's a long way from orwell 's dark , intelligent warning cry ( 1984 ) to the empty stud knockabout of equilibrium 
+##Positive or negative: negative
+##Review: remove spider-man the movie from its red herring surroundings and 
+##Positive or negative: negative
+##Review: much of the digitally altered footage appears jagged , as if filmed directly from a television monitor , while the extensive use of stock footage quickly becomes a tiresome cliché . 
+##Positive or negative: negative
+##Review: it 's almost impossible not to be swept away by the sheer beauty of his images . 
+##Positive or negative: positive
+##Review: fuses the events of her life with the imagery in her paintings so vividly that the artist 's work may take on a striking new significance for anyone who sees the film 
+##Positive or negative: positive
+##Review: in love with myth 
+##Positive or negative: positive
+##Review: its questionable satirical ambivalence 
+##Positive or negative: negative
+##Review: its decrepit freaks 
+##Positive or negative: negative
+##Review: hypermasculine 
+##Positive or negative: negative
+
+
+**Review:**
+
+* deliciously mean-spirited and wryly observant (Positive)
+
+This example describes a movie that is enjoyable and entertaining, which are both qualities that people might look for in a musical experience. The use of the words "deliciously" and "mean-spirited" suggest that the movie is not afraid to be edgy or subversive, which could be appealing to fans of certain musical genres.
+Select and return only the above demo examples that are most related and relevant to music. Match the same formatting the examples were given in, using Review:  and Positive or negative: .
+[/INST]
+memo: 
+**Review:**
+
+* deliciously mean-spirited and wryly observant (Positive)
+
+This example describes a movie that is enjoyable and entertaining, which are both qualities that people might look for in a musical experience. The use of the words "deliciously" and "mean-spirited" suggest that the movie is not afraid to be edgy or subversive, which could be appealing to fans of certain musical genres.
+
+First prompt: <s>[INST] <<SYS>>You are a precise, succinct AI model. You select and return the demo examples that are most related and relevant to music.<</SYS>>
+Here are the demo examples: 
+##Review: create some episodes that rival vintage looney tunes for the most creative mayhem in a brief amount of time . 
+##Positive or negative: positive
+##Review: in need of a scented bath 
+##Positive or negative: negative
+##Review: the intimate , unguarded moments of folks who live in unusual homes 
+##Positive or negative: positive
+##Review: again that the era of the intelligent , well-made b movie is long gone 
+##Positive or negative: negative
+##Review: low-tech magic realism and , at times , 
+##Positive or negative: negative
+##Review: this masterfully calibrated psychological thriller 
+##Positive or negative: positive
+##Review: is ) looking down at your watch and realizing serving sara is n't even halfway through 
+##Positive or negative: negative
+##Review: absurd , 
+##Positive or negative: negative
+##Review: tries to grab us , only to keep letting go at all the wrong moments 
+##Positive or negative: negative
+##Review: there 's not a single jump-in-your-seat moment and 
+##Positive or negative: negative
+
+
+**Review:**
+
+* deliciously mean-spirited and wryly observant (Positive)
+
+This example describes a movie that is enjoyable and entertaining, which are both qualities that people might look for in a musical experience. The use of the words "deliciously" and "mean-spirited" suggest that the movie is not afraid to be edgy or subversive, which could be appealing to fans of certain musical genres.
+Select and return only the above demo examples that are most related and relevant to music. Match the same formatting the examples were given in, using Review:  and Positive or negative: .
+[/INST]
+memo: 
+**Review:**
+
+* deliciously mean-spirited and wryly observant (Positive)
+
+This example describes a movie that is enjoyable and entertaining, which are both qualities that people might look for in a musical experience. The use of the words "deliciously" and "mean-spirited" suggest that the movie is not afraid to be edgy or subversive, which could be appealing to fans of certain musical genres.
+
+
+!!!test print of all_results!!!
+
+
+: 
+**Review:**
+
+* deliciously mean-spirited and wryly observant (Positive)
+
+This example describes a movie that is enjoyable and entertaining, which are both qualities that people might look for in a musical experience. The use of the words "deliciously" and "mean-spirited" suggest that the movie is not afraid to be edgy or subversive, which could be appealing to fans of certain musical genres.
+
+
+
+Used time: 173.70467138290405

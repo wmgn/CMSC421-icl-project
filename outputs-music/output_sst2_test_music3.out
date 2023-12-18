@@ -1,0 +1,54 @@
+Successfully loaded config from configs/dataset_config_few_shot.json!
+Successfully loaded config from configs/net_config_basic.json!
+First prompt: <s>[INST] <<SYS>>You are a precise, succinct AI model. You select and return the best demo examples that are most related and relevant to music.<</SYS>>
+Select and return the most related and relevant to music of the above demo examples. Match the same formatting the examples were given in, using Review:  and Positive or negative: .
+Here are the demo examples: 
+##Review: a great movie 
+##Positive or negative: positive
+##Review: entertaining , if somewhat standardized , action 
+##Positive or negative: positive
+##Review: even when there are lulls , the emotions seem authentic , 
+##Positive or negative: positive
+##Review: a larger-than-life figure 
+##Positive or negative: positive
+##Review: nothing special and , until the final act , nothing 
+##Positive or negative: negative
+##Review: a journey back to your childhood 
+##Positive or negative: positive
+##Review: a film that manages to find greatness in the hue of its drastic iconography 
+##Positive or negative: positive
+##Review: much funnier film 
+##Positive or negative: positive
+##Review: relies on more than special effects 
+##Positive or negative: positive
+##Review: the music makes a nice album , 
+##Positive or negative: positive
+
+[/INST]
+Result:  Sure, here are the demo examples that are most related and relevant to music:
+
+1. **Review: a great movie**
+Positive or negative: positive
+2. **Review: a journey back to your childhood**
+Positive or negative: positive
+3. **Review: a film that manages to find greatness in the hue of its drastic iconography**
+Positive or negative: positive
+4. **Review: much funnier film**
+Positive or negative: positive
+5. **Review: relies on more than special effects**
+Positive or negative: positive
+
+The others are either not related to music or have a negative connotation:
+
+1. **Review: entertaining , if somewhat standardized , action**
+Positive or negative: positive
+2. **Review: even when there are lulls , the emotions seem authentic**
+Positive or negative: positive
+3. **Review: a larger-than-life figure**
+Positive or negative: positive
+4. **Review: nothing special and , until the final act , nothing**
+Positive or negative: negative
+5. **Review: a film that manages to find greatness in the hue of its drastic iconography**
+Positive or negative: positive
+
+Used time: 31.55210280418396

@@ -1,0 +1,39 @@
+Successfully loaded config from configs/dataset_config_few_shot.json!
+Successfully loaded config from configs/net_config_basic.json!
+First prompt: <s>[INST] <<SYS>>You are a precise AI model. Select and return the best in-context demo examples (review and sentiment) that are most related and relevant to the comedy genre.<</SYS>>
+Here are the demo examples: 
+##Review: a great movie 
+##Positive or negative: positive
+##Review: entertaining , if somewhat standardized , action 
+##Positive or negative: positive
+##Review: even when there are lulls , the emotions seem authentic , 
+##Positive or negative: positive
+##Review: a larger-than-life figure 
+##Positive or negative: positive
+##Review: nothing special and , until the final act , nothing 
+##Positive or negative: negative
+##Review: a journey back to your childhood 
+##Positive or negative: positive
+##Review: a film that manages to find greatness in the hue of its drastic iconography 
+##Positive or negative: positive
+##Review: much funnier film 
+##Positive or negative: positive
+##Review: relies on more than special effects 
+##Positive or negative: positive
+##Review: the music makes a nice album , 
+##Positive or negative: positive
+
+[/INST]
+Result:  Based on the provided demo examples, here are the best in-context examples related to the comedy genre:
+
+1. **Review: a great movie** - Positive. This example is relevant to the comedy genre as it implies that the movie is enjoyable and well-made, which is a key aspect of comedy.
+2. **Review: entertaining, if somewhat standardized action** - Positive. This example is relevant to the comedy genre as it suggests that the movie is engaging and enjoyable, even if it follows a predictable formula.
+3. **Review: even when there are lulls, the emotions seem authentic** - Positive. This example is relevant to the comedy genre as it implies that the movie is emotionally resonant and authentic, which is an important aspect of comedy.
+4. **Review: a larger-than-life figure** - Positive. This example is relevant to the comedy genre as it suggests that the movie features a larger-than-life character, which is a common trope in comedy.
+5. **Review: much funnier film** - Positive. This example is relevant to the comedy genre as it implies that the movie is humorous and enjoyable.
+6. **Review: relies on more than special effects** - Positive. This example is relevant to the comedy genre as it suggests that the movie's humor is not just reliant on special effects, but on the writing and performances as well.
+7. **Review: the music makes a nice album** - Positive. This example is relevant to the comedy genre as it implies that the movie's soundtrack is enjoyable and adds to the overall experience of the film.
+
+Overall, these examples demonstrate a positive sentiment towards the comedy genre, with a focus on the enjoyment, authenticity, and humor of the movies being reviewed.
+
+Used time: 40.45339059829712

@@ -1,4 +1,4 @@
 {
-    "max_steps": 1,
-    "example_size": 4
+    "max_steps": 10,
+    "example_size": 7
 }

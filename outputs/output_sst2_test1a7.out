@@ -1,0 +1,20 @@
+Successfully loaded config from configs/dataset_config_few_shot.json!
+Successfully loaded config from configs/net_config_basic.json!
+First prompt: <s>[INST] <<SYS>>You are a precise AI model. You select, summarize, and return the demo examples that are most related and relevant to the task.<</SYS>>
+Your task right now is: Summarize the demo examples you think are most related and relevant to the task.Here are the demo examples: 
+##Review: a great movie 
+##Positive or negative: positive
+##Review: entertaining , if somewhat standardized , action 
+##Positive or negative: positive
+##Review: even when there are lulls , the emotions seem authentic , 
+##Positive or negative: positive
+
+Here is a list of the most related and relevant demo examples:[/INST]
+Result:  As a precise AI model, I have analyzed the demo examples provided and identified the ones that are most relevant and related to the task at hand. Based on my analysis, the top 3 demo examples that are most relevant and relevant to the task are:
+
+1. **Review: a great movie** - This demo example is related to the task because it involves evaluating the quality of a movie, which is a similar task to evaluating the quality of an action movie. The review highlights the movie's positive aspects, such as its great storytelling and memorable characters, which are also important factors to consider when evaluating an action movie.
+2. **Positive or negative: positive** - This demo example is relevant to the task because it provides a context for the review examples. By indicating whether the review is positive or negative, the demo example helps the AI model understand the overall tone and sentiment of the review, which can be useful in evaluating the quality of an action movie.
+3. **Review: entertaining, if somewhat standardized, action** - This demo example is relevant to the task because it provides a review of an action movie that highlights its entertainment value. The reviewer mentions that the movie is entertaining, but also notes that it is somewhat standardized, which suggests that the movie may not be particularly original or innovative. This is similar to the task of evaluating an action movie, which involves assessing its originality and innovation in addition to its entertainment value.
+
+Overall, these three demo examples are the most relevant and related to the task of evaluating the quality of an action movie. They provide valuable insights into how to evaluate an action movie's storytelling, entertainment value, and overall quality, which can help the AI model make more accurate predictions.
+

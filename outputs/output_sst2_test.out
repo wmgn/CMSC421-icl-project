@@ -1,0 +1,122 @@
+Successfully loaded config from configs/dataset_config_few_shot.json!
+Successfully loaded config from configs/net_config_basic.json!
+First prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews.<</SYS>>Given the examples, try to find words in the given review that indicate positive and negative attitudes of people. Then analyze which side is stronger.
+Here are the examples:
+##Review: a great movie 
+##Positive or negative: positive
+##Review: entertaining , if somewhat standardized , action 
+##Positive or negative: positive
+##Review: even when there are lulls , the emotions seem authentic , 
+##Positive or negative: positive
+##Review: a larger-than-life figure 
+##Positive or negative: positive
+
+Here is the review which you need to find words in that indicate positive and negative attitudes of people and then analyze which side is stronger.:
+##Review: it 's a charming and often affecting journey . 
+[/INST]
+Second prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews. You respect the analyzation.<</SYS>>Based on the analyzation provided, classify the review with a single word 'positive' or 'negative'.
+
+Here is the review you need to classify with a single word 'positive' or 'negative':
+##Review: it 's a charming and often affecting journey . 
+##Analyzation:  Sure, I can help you with that!
+
+From the given review, the words that indicate positive attitudes are:
+
+* "charming"
+* "affecting"
+
+
+
+
+
+
+///// our input
+“My question will be: $input query$, and here are some examples/context: 
+$summarization from last mini-batch$ and $this mini-batch's own demos/example$, 
+summarize the examples/context you think is related to my question.”
+/////
+
+$input query$
+<s>[INST] <<SYS>>
+You are a psychologist. You are precise. You analyze sentiment of people's reviews.
+<</SYS>>
+Given the examples, try to find words in the given review that indicate 
+positive and negative attitudes of people. Then analyze which side is stronger.
+
+
+$summarization/selection (of demos/examples) from last mini-batch (output)$
+----- example summarization -----
+here is the context that is relevant to your question:
+##Review: a great movie 
+##Positive or negative: positive
+##Review: entertaining , if somewhat standardized , action 
+##Positive or negative: positive
+------
+------
+
+
+$this mini-batch's own demos/example$
+##Review: a great movie 
+##Positive or negative: positive
+##Review: entertaining , if somewhat standardized , action 
+##Positive or negative: positive
+##Review: even when there are lulls , the emotions seem authentic , 
+##Positive or negative: positive
+##Review: a larger-than-life figure 
+##Positive or negative: positive
+
+
+
+/////
+
+
+
+
+
+And the words that indicate negative attitudes are:
+
+* "lulls" (which could suggest a lack of engagement or interest)
+
+Based on the analysis, the positive side is stronger in this review. The use of the words "charming" and "affecting" suggests that the reviewer found the movie to be endearing and emotionally impactful, while the mention of "lulls" only weakens the negative side. Therefore, the overall sentiment of the review is positive.
+##Positive or negative: [/INST]
+Result: positive
+
+First prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews.<</SYS>>Given the examples, try to find words in the given review that indicate positive and negative attitudes of people. Then analyze which side is stronger.
+Here are the examples:
+##Review: nothing special and , until the final act , nothing 
+##Positive or negative: negative
+##Review: a journey back to your childhood 
+##Positive or negative: positive
+##Review: a film that manages to find greatness in the hue of its drastic iconography 
+##Positive or negative: positive
+##Review: much funnier film 
+##Positive or negative: positive
+
+Here is the review which you need to find words in that indicate positive and negative attitudes of people and then analyze which side is stronger.:
+##Review: unflinchingly bleak and desperate 
+[/INST]
+Second prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews. You respect the analyzation.<</SYS>>Based on the analyzation provided, classify the review with a single word 'positive' or 'negative'.
+
+Here is the review you need to classify with a single word 'positive' or 'negative':
+##Review: unflinchingly bleak and desperate 
+##Analyzation:  Sure, I can help you with that!
+
+Based on the given review, "unflinchingly bleak and desperate," there are several words that indicate positive and negative attitudes:
+
+Positive Attitudes:
+
+* Unflinchingly: suggests a bold and uncompromising approach to the subject matter.
+* Bleak: can be interpreted as a reference to the darkness and despair in the film, but also implies a sense of realism and authenticity.
+* Desperate: conveys a sense of urgency and desperation, which can be seen as a positive aspect of the film.
+
+Negative Attitudes:
+
+* Bleak: as mentioned above, can also be seen as a negative connotation, implying a lack of hope or optimism.
+* Desperate: can also be interpreted as a negative trait, suggesting a sense of hopelessness or frustration.
+
+After analyzing the words that indicate positive and negative attitudes, I would say that the negative attitudes are stronger in this review. The use of the word "bleak" has a double meaning, both positive and negative, but the overall tone of the review is more negative than positive. The reviewer seems to be implying that the film is overwhelmingly dark and desperate, with little hope or optimism. Therefore, the negative attitudes in the review outweigh the positive ones.
+##Positive or negative: [/INST]
+Result: negative
+
+Evaluation results on sst2: {'accuracy': 1.0}
+Used time: 746.0527744293213

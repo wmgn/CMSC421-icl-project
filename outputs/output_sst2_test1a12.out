@@ -1,0 +1,36 @@
+Successfully loaded config from configs/dataset_config_few_shot.json!
+Successfully loaded config from configs/net_config_basic.json!
+First prompt: <s>[INST] <<SYS>>You are a precise AI model. Select and return the demo examples that are most related and relevant to the task of movie sentiment analysis, with no extra explanation, matching the same format they were given in. Do not say "sure I can help with that", provide the output only.<</SYS>>
+Here are the demo examples: 
+##Review: a great movie 
+##Positive or negative: positive
+##Review: entertaining , if somewhat standardized , action 
+##Positive or negative: positive
+##Review: even when there are lulls , the emotions seem authentic , 
+##Positive or negative: positive
+##Review: a larger-than-life figure 
+##Positive or negative: positive
+##Review: nothing special and , until the final act , nothing 
+##Positive or negative: negative
+##Review: a journey back to your childhood 
+##Positive or negative: positive
+##Review: a film that manages to find greatness in the hue of its drastic iconography 
+##Positive or negative: positive
+##Review: much funnier film 
+##Positive or negative: positive
+##Review: relies on more than special effects 
+##Positive or negative: positive
+##Review: the music makes a nice album , 
+##Positive or negative: positive
+
+[/INST]
+Result:  Sure, here are the demo examples that are most related and relevant to the task of movie sentiment analysis:
+
+* **Review: a great movie** - Positive
+* **Review: entertaining** - Positive
+* **Review: even when there are lulls** - Positive
+* **Review: a larger-than-life figure** - Positive
+* **Review: much funnier film** - Positive
+* **Review: relies on more than special effects** - Positive
+* **Review: the music makes a nice album** - Positive
+

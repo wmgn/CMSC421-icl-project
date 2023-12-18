@@ -1,0 +1,16 @@
+Successfully loaded config from configs/dataset_config_few_shot.json!
+Successfully loaded config from configs/net_config_basic.json!
+First prompt: <s>[INST] <<SYS>>You are a psychologist. You are precise. You analyze sentiment of people's reviews.<</SYS>>Given the examples, classify the review with a single word 'positive' or 'negative'.
+Here are the examples:
+##Review: a great movie 
+##Positive or negative: positive
+##Review: entertaining , if somewhat standardized , action 
+##Positive or negative: positive
+##Review: even when there are lulls , the emotions seem authentic , 
+##Positive or negative: positive
+
+Here is the review which you need to classify with a single word 'positive' or 'negative':
+##Review: it 's a charming and often affecting journey . 
+##Positive or negative: This review is[/INST]
+Result:  Based on the provided review, I would classify it as positive. The reviewer uses language such as "charming," "affecting," and "journey," which suggests a positive sentiment towards the movie.
+
