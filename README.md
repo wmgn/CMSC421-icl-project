@@ -1,5 +1,5 @@
 # CMSC421-icl-project
-This is the codebase for UMD CMSC421 icl project. We provide methods to do in-context learning on two datasets---sst2 and gsm8k with Llama-2 chat version.
+This is the codebase for UMD CMSC421 Fall 2023 icl project. Provided are methods to perform in-context learning on two datasets---sst2 and gsm8k with Llama-2 chat version.
 
 ## Important Note
 By default you only have 20G of disk space, which is definitely not enough for Llama-2-13B. Thus, you need to read the code first. Start with the main python files you run, i.e., the ones in the `run` folder. The variable `prompt_dict` is imported from `batcon/consts.py`. You can easily locate the other imported classes. Read these classes. All the namings are straightforward. After you read the code and have a plan about where to modify, let me know in the Discord channel. If you want to get a sense of what the code is doing, replace the default model with the 7B version (Read the code for how to do this. I haven't tested for it but I think the space should be roughly enough.) and follow the instructions below.
