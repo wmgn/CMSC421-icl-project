@@ -1,4 +1,6 @@
-# CMSC421-icl-project
+# CMSC421-icl-project (In-context learning)
+See the final academic paper here: [MINI-BATCH IN-CONTEXT LEARNING FOR LLM SELF-SELECTION](https://github.com/wmgn/CMSC421-icl-project/blob/main/MINI-BATCH%20IN-CONTEXT%20LEARNING%20FOR%20LLM%20SELF-SELECTION-Ex4.pdf)
+
 This is the codebase for UMD CMSC421 Fall 2023 icl project. Provided are methods to perform in-context learning on two datasets---sst2 and gsm8k with Llama-2 chat version.
 
 ## Important Note
